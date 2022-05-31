@@ -33,8 +33,8 @@
 <a href="/board/findAll">글목록</a><br>
 <a href="/logout">로그아웃</a>
 
-로그인 회원 정보: ${loginMember}
-세션에 담은 memberId: ${sessionScope.loginMemberId}
-세션에 담은 id: ${sessionScope.loginId}
+${loginMember}
+${sessionScope.loginMemberId}
+${sessionScope.loginId}
 </body>
 </html>

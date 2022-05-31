@@ -23,6 +23,7 @@
         <input type="text" name="q" placeholder="검색어입력...">
         <input type="submit" value="검색">
         <a href="/login-form">로그인</a>
+        <a href="/">홈</a>
     </form>
 </div>
 <c:choose>
