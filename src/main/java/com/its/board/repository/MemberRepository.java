@@ -26,5 +26,9 @@ public class MemberRepository {
     public String duplicateCheck(String memberId) {
         return sql.selectOne("Member.duplicate",memberId);
     }
-}
+
+    public int update(MemberDTO result) {
+        return sql.update("Member.update", result);}
+    }
+
 

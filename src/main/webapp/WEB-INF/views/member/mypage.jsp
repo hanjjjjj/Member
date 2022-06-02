@@ -11,7 +11,27 @@
     <title>Title</title>
 </head>
 <body>
-<h2>mypage.jsp</h2>
+<h2>myPage.jsp</h2>
+
+<table>
+    <tr>
+<td>name</td>
+<td>${memberDTO.memberName}</td>
+    </tr>
+    <tr>
+<td>Id</td>
+<td>${memberDTO.memberId}</td>
+    </tr>
+    <tr>
+<td>pw</td>
+<td>${memberDTO.memberPassword}</td>
+    </tr>
+<tr>
+<td>Ph</td>
+<td>${memberDTO.memberPhone}</td>
+</tr>
+</table>
+<button onclick="location.href='/memberupdate?id=${memberDTO.id}'">수정</button>
 
 </body>
 </html>

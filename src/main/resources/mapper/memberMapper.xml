@@ -23,6 +23,10 @@
     <select id="duplicate" parameterType="String" resultType="String">
         select  memberId from member_table where memberId=#{memberId}
     </select>
+
+    <update id="update" parameterType="member">
+        update member_table set memberId=#{memberId} where id=#{id}
+    </update>
 </mapper>
 
 

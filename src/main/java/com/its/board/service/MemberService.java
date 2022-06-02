@@ -42,4 +42,9 @@ public class MemberService {
             return "no";
         }
     }
+
+    public int update(MemberDTO result) {
+       return memberRepository.update(result);
+
+    }
 }

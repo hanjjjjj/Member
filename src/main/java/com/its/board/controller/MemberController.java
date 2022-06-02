@@ -77,4 +77,23 @@ public class MemberController {
         session.invalidate();
         return "index";
     }
+    @GetMapping("/myPage")
+    public String myPage(Model model,HttpSession session){
+        long aa=(long)session.getAttribute("loginId");
+        MemberDTO result=memberService.findById(aa);
+        model.addAttribute("memberDTO", result);
+        return "/member/mypage";
+    }
+    @GetMapping("/memberupdate")
+    public String memberupdate(Model model, @RequestParam("id")long id){
+        MemberDTO result=memberService.findById(id);
+        model.addAttribute("memberDTO",result);
+        return "/member/update";
+    }
+    @PostMapping("/update")
+    public String update(@ModelAttribute MemberDTO result){
+        if(memberService.update(result) > 0){
+            return "redirect:/myPage";
+        }return null;
+    }
 }

@@ -55,7 +55,7 @@
             <td>${comment.id}</td>
             <td>${comment.commentWriter}</td>
             <td>${comment.commentContents}</td>
-            <td><fmt:formatDate pattern="yyyy-MM-dd hh:mm:ss" value="${comment.boardCreateDate}"></fmt:formatDate></td>
+            <td><fmt:formatDate pattern="yyyy-MM-dd hh:mm:ss" value="${comment.commentCreateDate}"></fmt:formatDate></td>
             </tr>
         </c:forEach>
     </table>

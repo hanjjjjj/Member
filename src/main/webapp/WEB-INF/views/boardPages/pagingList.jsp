@@ -24,6 +24,11 @@
         <input type="submit" value="검색">
         <a href="/login-form">로그인</a>
         <a href="/">홈</a>
+        <c:choose>
+            <c:when test="${sessionScope.loginMemberId != null}">
+                <a href="/myPage">마이페이지</a>
+            </c:when>
+        </c:choose>
     </form>
 </div>
 <c:choose>
