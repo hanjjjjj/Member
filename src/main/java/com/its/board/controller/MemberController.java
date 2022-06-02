@@ -51,11 +51,11 @@ public class MemberController {
         }
     }
 
-    @GetMapping("/findAll")
+    @GetMapping("/admin")
     public String findAll(Model model) {
         List<MemberDTO> memberDTOList = memberService.findAll();
         model.addAttribute("memberList", memberDTOList);
-        return "/member/list";
+        return "/member/admin";
     }
 
     @GetMapping("/detail")
@@ -77,23 +77,37 @@ public class MemberController {
         session.invalidate();
         return "index";
     }
+
     @GetMapping("/myPage")
-    public String myPage(Model model,HttpSession session){
-        long aa=(long)session.getAttribute("loginId");
-        MemberDTO result=memberService.findById(aa);
+    public String myPage(Model model, HttpSession session) {
+        long aa = (long) session.getAttribute("loginId");
+        MemberDTO result = memberService.findById(aa);
         model.addAttribute("memberDTO", result);
         return "/member/mypage";
     }
+
     @GetMapping("/memberupdate")
-    public String memberupdate(Model model, @RequestParam("id")long id){
-        MemberDTO result=memberService.findById(id);
-        model.addAttribute("memberDTO",result);
+    public String memberupdate(Model model, @RequestParam("id") long id) {
+        MemberDTO result = memberService.findById(id);
+        model.addAttribute("memberDTO", result);
         return "/member/update";
     }
+
     @PostMapping("/update")
-    public String update(@ModelAttribute MemberDTO result){
-        if(memberService.update(result) > 0){
+    public String update(@ModelAttribute MemberDTO result) {
+        if (memberService.update(result) > 0) {
             return "redirect:/myPage";
-        }return null;
+        }
+        return null;
     }
+
+    @GetMapping("/delete")
+    public String delete(@RequestParam("id") long id) {
+        if(memberService.delete(id) > 0){
+            return "redirect:/admin";
+        }
+        return null;
+    }
+
 }
+

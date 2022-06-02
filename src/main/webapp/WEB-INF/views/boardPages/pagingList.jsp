@@ -30,6 +30,9 @@
             </c:when>
         </c:choose>
     </form>
+    <c:if test="${sessionScope.loginMemberId =='admin'}">
+        <a href="/admin">관리자</a>
+    </c:if>
 </div>
 <c:choose>
     <c:when test="${sessionScope.loginMemberId eq null}">

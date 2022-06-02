@@ -26,7 +26,7 @@
     조회수:${board.boardHits} <br>
     <img src="${pageContext.request.contextPath}/upload/${board.boardFileName}"
          alt="" height="100" width="100">
-    <c:if test="${sessionScope.loginMemberId == board.boardWriter}">
+    <c:if test="${sessionScope.loginMemberId == board.boardWriter || sessionScope.loginMemberId == 'admin'}">
     <button onclick="boardUpdate()">수정 </button>
     <button onclick="boardDelete()">삭제 </button>
     </c:if>

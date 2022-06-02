@@ -47,4 +47,8 @@ public class MemberService {
        return memberRepository.update(result);
 
     }
+
+    public int delete(long id) {
+        return memberRepository.delete(id);
+    }
 }

@@ -27,6 +27,10 @@
     <update id="update" parameterType="member">
         update member_table set memberId=#{memberId} where id=#{id}
     </update>
+
+    <delete id="delete" parameterType="long">
+        delete from member_table where id=#{id}
+    </delete>
 </mapper>
 
 

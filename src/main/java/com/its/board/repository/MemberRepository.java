@@ -19,7 +19,7 @@ public class MemberRepository {
     }
     public MemberDTO login(MemberDTO memberDTO){ return sql.selectOne("Member.login",memberDTO);
     }
-    public List<MemberDTO>findAll() {return sql.selectOne("Member.findAll");}
+    public List<MemberDTO>findAll() {return sql.selectList("Member.findAll");}
     public MemberDTO findById(Long id){return sql.selectOne("Member.findById",id);}
 
 
@@ -29,6 +29,10 @@ public class MemberRepository {
 
     public int update(MemberDTO result) {
         return sql.update("Member.update", result);}
+
+    public int delete(long id) {
+        return sql.delete("Member.delete", id);}
     }
+
 
 
