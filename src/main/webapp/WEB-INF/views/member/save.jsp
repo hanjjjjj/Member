@@ -19,7 +19,7 @@
 </head>
 <body>
 <div class="container">
-    <h2 class="display-4 fw-normal">save.jsp</h2>
+    <h2 class="display-4 fw-normal">회원가입</h2>
     <div class="py-5 text-center">
 
 <form action="/save" method="post">

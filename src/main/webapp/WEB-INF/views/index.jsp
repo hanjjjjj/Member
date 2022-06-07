@@ -28,10 +28,13 @@
     </script>
 </head>
 <body>
-<a href="/save-form">회원가입</a><br>
-<a href="/login-form">로그인</a><br>
-<a href="/board/findAll">글목록</a><br>
-<a href="/logout">로그아웃</a>
+<header class="p-3 bg-dark text-white">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+<li><a href="/save-form" class="nav-link px-2 text-secondary">회원가입</a></li><br>
+<li><a href="/login-form" class="nav-link px-2 text-white ">로그인</a></li>
+            <li><a href="/board/findAll" class="nav-link px-2 text-white">글목록</a></li>
+            <li><a href="/logout" class="nav-link px-2 text-secondary">로그아웃</a></li>
 
 ${loginMember}
 ${sessionScope.loginMemberId}
