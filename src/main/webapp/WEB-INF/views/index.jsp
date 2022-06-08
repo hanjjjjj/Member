@@ -10,6 +10,7 @@
 <head>
     <title>Title</title>
     <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/resources/css/background.css">
     <script>
         const saveForm = () => {
             location.href = "/board/save";
@@ -34,7 +35,9 @@
 <li><a href="/save-form" class="nav-link px-2 text-secondary">회원가입</a></li><br>
 <li><a href="/login-form" class="nav-link px-2 text-white ">로그인</a></li>
             <li><a href="/board/findAll" class="nav-link px-2 text-white">글목록</a></li>
-            <li><a href="/logout" class="nav-link px-2 text-secondary">로그아웃</a></li>
+            <video muted autoplay loop>
+                <source src="/resources/video/Flag%20-%2059217.mp4">
+            </video>
 
 ${loginMember}
 ${sessionScope.loginMemberId}

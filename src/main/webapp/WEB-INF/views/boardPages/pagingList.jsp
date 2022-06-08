@@ -26,6 +26,16 @@
         <a href="/">홈</a>
         <c:choose>
             <c:when test="${sessionScope.loginMemberId != null}">
+                <a href="/board/saveFile">글쓰기</a>
+            </c:when>
+        </c:choose>
+        <c:choose>
+            <c:when test="${sessionScope.loginMemberId != null}">
+                <a href="/logout">로그아웃</a>
+            </c:when>
+        </c:choose>
+        <c:choose>
+            <c:when test="${sessionScope.loginMemberId != null}">
                 <a href="/myPage">마이페이지</a>
             </c:when>
         </c:choose>
@@ -106,6 +116,7 @@
         </c:choose>
     </ul>
 </div>
+
 
 </body>
 </html>
