@@ -45,7 +45,7 @@ public class MemberController {
             model.addAttribute("loginMember", loginMember);
             session.setAttribute("loginMemberId", loginMember.getMemberId());
             session.setAttribute("loginId", loginMember.getId());
-            return "redirect:/board/findAll";
+            return "/soccer/home";
         } else {
             return "/member/login";
         }

@@ -22,26 +22,26 @@
         </select>
         <input type="text" name="q" placeholder="검색어입력...">
         <input type="submit" value="검색">
-        <a href="/login-form">로그인</a>
-        <a href="/">홈</a>
+        <button href="/login-form">로그인</button>
+        <button href="/">홈</button>
         <c:choose>
             <c:when test="${sessionScope.loginMemberId != null}">
-                <a href="/board/saveFile">글쓰기</a>
+                <button href="/board/saveFile">글쓰기</button>
             </c:when>
         </c:choose>
         <c:choose>
             <c:when test="${sessionScope.loginMemberId != null}">
-                <a href="/logout">로그아웃</a>
+                <button href="/logout">로그아웃</button>
             </c:when>
         </c:choose>
         <c:choose>
             <c:when test="${sessionScope.loginMemberId != null}">
-                <a href="/myPage">마이페이지</a>
+                <button href="/myPage">마이페이지</button>
             </c:when>
         </c:choose>
     </form>
     <c:if test="${sessionScope.loginMemberId =='admin'}">
-        <a href="/admin">관리자</a>
+        <button href="/admin">관리자</button>
     </c:if>
 </div>
 <c:choose>
