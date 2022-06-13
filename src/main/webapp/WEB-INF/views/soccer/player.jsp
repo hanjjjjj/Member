@@ -52,7 +52,7 @@
         <div class="row no-gutters site-navbar align-items-center py-3">
 
             <div class="col-6 col-lg-2 site-logo">
-                <a href="/home">SportsTeam</a>
+                <a href="/home">Realmadrid</a>
             </div>
             <div class="col-6 col-lg-10 text-right menu">
                 <nav class="site-navigation text-right text-md-right">
