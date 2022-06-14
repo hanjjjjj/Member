@@ -17,5 +17,9 @@ public class HomeController {
     @GetMapping("/stadium")
     public String stadim() {return  "soccer/stadium";}
 
+    @GetMapping("/shop")
+    public String shop(){return "soccer/shop";}
 
+    @GetMapping("/Gallery")
+    public String Gallery(){return "soccer/Gallery";}
 }

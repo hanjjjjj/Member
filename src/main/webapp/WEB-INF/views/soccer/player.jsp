@@ -95,7 +95,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="hero-wrap text-center" style="background-image: url('/resources/css2/images/images.jpg');" data-stellar-background-ratio="0.5">
+                <div class="hero-wrap text-center" style="background-image: url('/resources/css2/images/madrid.png');" data-stellar-background-ratio="0.5">
                     <div class="hero-contents">
                         <h2>Players</h2>
                         <p><a href="/home">Home</a> <span class="mx-2">/</span> <strong>Players</strong></p>
@@ -185,74 +185,146 @@
             <div class="row">
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="item player">
-                        <a href="#"><img src="/resources/css2/images/player_4.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="#"><img src="/resources/css2/images/Eden%20Hazard.jpg" alt="Image" class="img-fluid"></a>
                         <div class="p-4">
-                            <h3>Jakub Bates</h3>
-                            <p>#10 / Forward</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-                    <div class="item player">
-                        <a href="#"><img src="/resources/css2/images/player_1.jpg" alt="Image" class="img-fluid"></a>
-                        <div class="p-4">
-                            <h3>Joshua Figueroa</h3>
+                            <h3>Eden Hazard</h3>
                             <p>#7 / Forward</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="item player">
-                        <a href="#"><img src="/resources/css2/images/player_5.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="#"><img src="/resources/css2/images/Ferland%20Mendy.jpg" alt="Image" class="img-fluid" width="624px" height="624px"></a>
                         <div class="p-4">
-                            <h3>Russell Vance</h3>
-                            <p>#1 / Goal Keeper</p>
+                            <h3>Ferland Mendy</h3>
+                            <p>#23 / Defender</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="item player">
-                        <a href="#"><img src="/resources/css2/images/player_3.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="#"><img src="/resources/css2/images/vajho.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
                         <div class="p-4">
-                            <h3>Carson Hodgson</h3>
-                            <p>#3 / Forward</p>
+                            <h3>Vallejo</h3>
+                            <p>#5 / Defender</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="item player">
-                        <a href="#"><img src="/resources/css2/images/player_4.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="#"><img src="/resources/css2/images/nacho.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
                         <div class="p-4">
-                            <h3>Jakub Bates</h3>
-                            <p>#10 / Forward</p>
+                            <h3>Nacho</h3>
+                            <p>#6 / Defender</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="item player">
-                        <a href="#"><img src="/resources/css2/images/player_1.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="#"><img src="/resources/css2/images/marcello.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
                         <div class="p-4">
-                            <h3>Joshua Figueroa</h3>
-                            <p>#7 / Forward</p>
+                            <h3>Marcelo</h3>
+                            <p>#12 / Defender</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="item player">
-                        <a href="#"><img src="/resources/css2/images/player_5.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="#"><img src="/resources/css2/images/lunin.jpg" alt="Image" class="img-fluid" width="624px" height="624px"></a>
                         <div class="p-4">
-                            <h3>Russell Vance</h3>
-                            <p>#1 / Goal Keeper</p>
+                            <h3>Lunin</h3>
+                            <p>#13 / Goal Keeper</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="item player">
-                        <a href="#"><img src="/resources/css2/images/player_3.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="#"><img src="/resources/css2/images/vavalde.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
                         <div class="p-4">
-                            <h3>Carson Hodgson</h3>
-                            <p>#3 / Forward</p>
+                            <h3>Valverde</h3>
+                            <p>#15 / Mid-fielder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="item player">
+                        <a href="#"><img src="/resources/css2/images/lucas.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                        <div class="p-4">
+                            <h3>Lucas V.</h3>
+                            <p>#17 / Mid-fielder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="item player">
+                        <a href="#"><img src="/resources/css2/images/ceba.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                        <div class="p-4">
+                            <h3>D. Ceballos</h3>
+                            <p>#19 / Mid-fielder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="item player">
+                        <a href="#"><img src="/resources/css2/images/isco.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                        <div class="p-4">
+                            <h3>Isco</h3>
+                            <p>#22 / Mid-fielder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="item player">
+                        <a href="#"><img src="/resources/css2/images/camavingall.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                        <div class="p-4">
+                            <h3>Camavinga</h3>
+                            <p>#25 / Mid-fielder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="item player">
+                        <a href="#"><img src="/resources/css2/images/Asensio.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                        <div class="p-4">
+                            <h3>Asensio</h3>
+                            <p>#11 / Forward</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="item player">
+                        <a href="#"><img src="/resources/css2/images/lucavic.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                        <div class="p-4">
+                            <h3>Jovic</h3>
+                            <p>#16 / Forward</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="item player">
+                        <a href="#"><img src="/resources/css2/images/bale.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                        <div class="p-4">
+                            <h3>Bale</h3>
+                            <p>#18 / Forward</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="item player">
+                        <a href="#"><img src="/resources/css2/images/rodrygo.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                        <div class="p-4">
+                            <h3>Rodrygo</h3>
+                            <p>#21 / Forward</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+                    <div class="item player">
+                        <a href="#"><img src="/resources/css2/images/mariano.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                        <div class="p-4">
+                            <h3>Mariano</h3>
+                            <p>#24 / Forward</p>
                         </div>
                     </div>
                 </div>

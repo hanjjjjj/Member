@@ -62,7 +62,7 @@
                             <img src="/resources/css2/images/parche_champions_14.png"width="52px" height="56px">
                             </a><a href="/home">Home</a>
                         </li>
-                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="/Gallery">Gallery</a></li>
                         <li class="has-children">
                             <a href="/Players">Players</a>
                             <ul class="dropdown arrow-top">
@@ -80,9 +80,9 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="/shop">shop</a></li>
+                        <li><a href="/board/findAll">board</a></li>
+                        <li><a href="/logout">logout</a></li>
                         <li><a href="/stadium">Bernabéu stadium</a></li>
                     </ul>
 
@@ -97,11 +97,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="hero-wrap" style="background-image: url('/resources/css2/images/images.jpg');" data-stellar-background-ratio="0.5">
+                <div class="hero-wrap" style="background-image: url('/resources/css2/images/tr.png');" data-stellar-background-ratio="0.5">
                     <div class="hero-contents">
                         <h2>Team after Training</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui distinctio aliquid dolor odio ullam odit cum veniam fuga aperiam aut.</p>
-                        <p class="mb-0"><a href="#" class="more"><span class="mr-2">+</span>Learn More</a></p>
+                        <p class="mb-0"><a href="https://www.realmadrid.com/futbol" class="more"><span class="mr-2">+</span>Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -172,6 +172,8 @@
                     <div class="p-4">
                         <h3>Eden Hazard</h3>
                         <p>#7 / Forward</p>
+                        <p>Belgium</p>
+                        <a href="https://namu.wiki/w/%EB%B2%A8%EA%B8%B0%EC%97%90"><img src="/resources/css2/images/national/bal.png" width="275px" height="183px"></a>
                     </div>
                 </div>
                 <div class="item player">
@@ -179,6 +181,9 @@
                     <div class="p-4">
                         <h3>Ferland Mendy</h3>
                         <p>#23 / Defender</p>
+                        <p>France</p>
+                        <a href="https://namu.wiki/w/%ED%94%84%EB%9E%91%EC%8A%A4"><img src="/resources/css2/images/national/france.png"width="275px" height="183px"></a>
+
                     </div>
                 </div>
                 <div class="item player">
@@ -186,13 +191,44 @@
                     <div class="p-4">
                         <h3>Daniel Carvajal</h3>
                         <p>#2 / Defender</p>
+                        <p>Spain</p>
+                        <a href="https://namu.wiki/w/%EC%8A%A4%ED%8E%98%EC%9D%B8"><img src="/resources/css2/images/national/es.png"width="275px" height="183px"></a>
                     </div>
                 </div>
                 <div class="item player">
-                    <a href="#"><img src="/resources/css2/images/David%20Alaba.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="#"><img src="/resources/css2/images/David%20Alaba.jpg" alt="Image" class="img-fluid" width="624px" height="624px"></a>
                     <div class="p-4">
                         <h3>David Alaba</h3>
                         <p>#4 / Defender</p>
+                        <p>Österreich</p>
+                        <a href="https://namu.wiki/w/%EC%98%A4%EC%8A%A4%ED%8A%B8%EB%A6%AC%EC%95%84"><img src="/resources/css2/images/national/os.png"width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/vajho.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Vallejo</h3>
+                        <p>#5 / Defender</p>
+                        <p>Spain</p>
+                        <a href="https://namu.wiki/w/%EC%8A%A4%ED%8E%98%EC%9D%B8"><img src="/resources/css2/images/national/es.png"width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/nacho.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Nacho</h3>
+                        <p>#6 / Defender</p>
+                        <p>Spain</p>
+                        <a href="https://namu.wiki/w/%EC%8A%A4%ED%8E%98%EC%9D%B8"><img src="/resources/css2/images/national/es.png"width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/marcello.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Marcelo</h3>
+                        <p>#12 / Defender</p>
+                        <p>Brazil</p>
+                        <a href="https://namu.wiki/w/%EB%B8%8C%EB%9D%BC%EC%A7%88"><img src="/resources/css2/images/national/Br.png"width="275px" height="183px"></a>
                     </div>
                 </div>
                 <div class="item player">
@@ -200,6 +236,8 @@
                     <div class="p-4">
                         <h3>Éder Militão</h3>
                         <p>#3 /Defender</p>
+                        <p>Brazil</p>
+                        <a href="https://namu.wiki/w/%EB%B8%8C%EB%9D%BC%EC%A7%88"><img src="/resources/css2/images/national/Br.png"width="275px" height="183px"></a>
                     </div>
                 </div>
                 <div class="item player">
@@ -207,6 +245,17 @@
                     <div class="p-4">
                         <h3>Thibaut Courtois</h3>
                         <p>#1 / Goal Keeper</p>
+                        <p>Belgium</p>
+                        <a href="https://namu.wiki/w/%EB%B2%A8%EA%B8%B0%EC%97%90"><img src="/resources/css2/images/national/bal.png" width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/lunin.jpg" alt="Image" class="img-fluid"width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Lunin</h3>
+                        <p>#13 / Goal Keeper</p>
+                        <p>Ukraine</p>
+                        <a href="https://namu.wiki/w/%EC%9A%B0%ED%81%AC%EB%9D%BC%EC%9D%B4%EB%82%98"><img src="/resources/css2/images/national/uk.png" width="275px" height="183px"></a>
                     </div>
                 </div>
                 <div class="item player">
@@ -214,14 +263,62 @@
                     <div class="p-4">
                         <h3>Casemiro</h3>
                         <p>#14 / Mid-fielder</p>
+                        <p>Brazil</p>
+                        <a href="https://namu.wiki/w/%EB%B8%8C%EB%9D%BC%EC%A7%88"><img src="/resources/css2/images/national/Br.png"width="275px" height="183px"></a>
                     </div>
                 </div>
-
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/vavalde.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Valverde</h3>
+                        <p>#15 / Mid-fielder</p>
+                        <p>Uruguay</p>
+                        <a href="https://namu.wiki/w/%EC%9A%B0%EB%A3%A8%EA%B3%BC%EC%9D%B4"><img src="/resources/css2/images/national/Ur.png"width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/lucas.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Lucas V.</h3>
+                        <p>#17 / Mid-fielder</p>
+                        <p>Spain</p>
+                        <a href="https://namu.wiki/w/%EC%8A%A4%ED%8E%98%EC%9D%B8"><img src="/resources/css2/images/national/es.png"width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/ceba.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>D. Ceballos</h3>
+                        <p>#19 / Mid-fielder</p>
+                        <p>Spain</p>
+                        <a href="https://namu.wiki/w/%EC%8A%A4%ED%8E%98%EC%9D%B8"><img src="/resources/css2/images/national/es.png"width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/isco.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Isco</h3>
+                        <p>#22 / Mid-fielder</p>
+                        <p>Spain</p>
+                        <a href="https://namu.wiki/w/%EC%8A%A4%ED%8E%98%EC%9D%B8"><img src="/resources/css2/images/national/es.png"width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/camavingall.png" alt="Image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Camavinga</h3>
+                        <p>#25 / Mid-fielder</p>
+                        <p>France</p>
+                        <a href="https://namu.wiki/w/%ED%94%84%EB%9E%91%EC%8A%A4"><img src="/resources/css2/images/national/france.png" width="275px" height="183px"></a>
+                    </div>
+                </div>
                 <div class="item player">
                     <a href="#"><img src="/resources/css2/images/Toni%20Kroos.jpg" alt="Image" class="img-fluid"width="624px" height="624px"></a>
                     <div class="p-4">
                         <h3>Toni Kroos</h3>
                         <p>#8 / Mid-fielder</p>
+                        <p>Germany</p>
+                        <a href="https://namu.wiki/w/%EB%8F%85%EC%9D%BC"><img src="/resources/css2/images/national/Ge.png" width="275px" height="183px"></a>
                     </div>
                 </div>
                 <div class="item player">
@@ -229,6 +326,8 @@
                     <div class="p-4">
                         <h3>Luka Modric</h3>
                         <p>#10 / Mid-fielder</p>
+                        <p>Croatia</p>
+                        <a href="https://namu.wiki/w/%ED%81%AC%EB%A1%9C%EC%95%84%ED%8B%B0%EC%95%84"><img src="/resources/css2/images/national/Cr.png" width="275px" height="183px"></a>
                     </div>
                 </div>
                 <div class="item player">
@@ -236,6 +335,53 @@
                     <div class="p-4">
                         <h3>Vinicius Junior</h3>
                         <p>#20 / Forward</p>
+                        <p>Brazil</p>
+                        <a href="https://namu.wiki/w/%EB%B8%8C%EB%9D%BC%EC%A7%88"><img src="/resources/css2/images/national/Br.png"width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/Asensio.png" alt="image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Asensio</h3>
+                        <p>#11 / Forward</p>
+                        <p>Spain</p>
+                        <a href="https://namu.wiki/w/%EC%8A%A4%ED%8E%98%EC%9D%B8"><img src="/resources/css2/images/national/es.png"width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/lucavic.png" alt="image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Jović</h3>
+                        <p>#16 / Forward</p>
+                        <p>Serbia</p>
+                        <a href="https://namu.wiki/w/%EC%84%B8%EB%A5%B4%EB%B9%84%EC%95%84"><img src="/resources/css2/images/national/Ser.png"width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/bale.png" alt="image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Bale</h3>
+                        <p>#18 / Forward</p>
+                        <p>Wales</p>
+                        <a href="https://namu.wiki/w/%EC%9B%A8%EC%9D%BC%EC%8A%A4"><img src="/resources/css2/images/national/wa.png"width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/rodrygo.png" alt="image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Rodrygo</h3>
+                        <p>#21 / Forward</p>
+                        <p>Brazil</p>
+                        <a href="https://namu.wiki/w/%EB%B8%8C%EB%9D%BC%EC%A7%88"><img src="/resources/css2/images/national/Br.png"width="275px" height="183px"></a>
+                    </div>
+                </div>
+                <div class="item player">
+                    <a href="#"><img src="/resources/css2/images/mariano.png" alt="image" class="img-fluid" width="624px" height="624px"></a>
+                    <div class="p-4">
+                        <h3>Mariano</h3>
+                        <p>#24 / Forward</p>
+                        <p>Dominican Republic</p>
+                        <a href="https://namu.wiki/w/%EB%8F%84%EB%AF%B8%EB%8B%88%EC%B9%B4%20%EA%B3%B5%ED%99%94%EA%B5%AD"><img src="/resources/css2/images/national/Do.png"width="275px" height="183px"></a>
                     </div>
                 </div>
                 <div class="item player">
@@ -243,6 +389,8 @@
                     <div class="p-4">
                         <h3>Karim Benzema</h3>
                         <p>#9 / Forward</p>
+                        <p>France</p>
+                        <a href="https://namu.wiki/w/%ED%94%84%EB%9E%91%EC%8A%A4"><img src="/resources/css2/images/national/france.png" width="275px" height="183px"></a>
                     </div>
                 </div>
 
@@ -261,7 +409,7 @@
 
             <div class="row">
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="/resources/css2/images/img_1.jpg" data-fancybox="gal"><img src="/resources/css2/images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="/resources/css2/images/Gallery/Tr1.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr1.png" alt="Image" class="img-fluid"width="784px" height="784px"></a>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
                     <a href="images/img_2.jpg" data-fancybox="gal"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
@@ -533,7 +681,9 @@
         <div class="container">
             <div class="row align-items-center mb-2">
                 <div class="col-6">
-                    <h2 class="section-title">Events</h2>
+                    <h2 class="section-title">shop</h2>
+                    <div class="col-6 text-right">
+                    </div>
                 </div>
             </div>
 
@@ -541,12 +691,14 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
                     <div class="custom-media d-block">
                         <div class="img-wrap mb-3">
-                            <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="https://shop.realmadrid.com/products/rmcfmz0075-real-madrid-mens-home-authentic-shirt-22-23-white"><img src="/resources/css2/images/uniform/unfrom1.png" onmouseover="this.src='/resources/css2/images/uniform/uniform2.png';" onmouseout="this.src='/resources/css2/images/uniform/unfrom1.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
                         </div>
                         <div>
                             <span class="caption">May 19, 2020</span>
-                            <h3><a href="#">Roman Greg scorer 4 goals</a></h3>
-                            <p class="mb-0"><a href="#" class="more"><span class="mr-2">+</span>Learn More</a></p>
+                            <h3><a href="#">
+                                Camiseta Authentic Hombre Primera Equipación Blanca 22/23
+                            </a></h3>
+                            <p class="mb-0"><a href="https://shop.realmadrid.com/products/rmcfmz0075-real-madrid-mens-home-authentic-shirt-22-23-white" class="more"><span class="mr-2">+</span>Learn More</a></p>
                         </div>
                     </div>
                 </div>
@@ -554,12 +706,14 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
                     <div class="custom-media d-block">
                         <div class="img-wrap mb-3">
-                            <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="https://shop.realmadrid.com/products/rmcfmz0074-real-madrid-mens-home-shirt-22-23-white"><img src="/resources/css2/images/uniform/uniform3.png" onmouseover="this.src='/resources/css2/images/uniform/uniform4.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform3.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
                         </div>
                         <div>
                             <span class="caption">May 19, 2020</span>
-                            <h3><a href="#">Line for the upcoming match</a></h3>
-                            <p class="mb-0"><a href="#" class="more"><span class="mr-2">+</span>Learn More</a></p>
+                            <h3><a href="#">
+                                Camiseta Hombre Primera Equipación Blanca 22/23
+                            </a></h3>
+                            <p class="mb-0"><a href="https://shop.realmadrid.com/products/rmcfmz0074-real-madrid-mens-home-shirt-22-23-white" class="more"><span class="mr-2">+</span>Learn More</a></p>
                         </div>
                     </div>
                 </div>
@@ -567,16 +721,32 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
                     <div class="custom-media d-block">
                         <div class="img-wrap mb-3">
-                            <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="https://shop.realmadrid.com/products/rmcfyo0022-real-madrid-youth-home-kit-22-23-white"><img src="/resources/css2/images/uniform/uniform7.png" onmouseover="this.src='/resources/css2/images/uniform/uniform8.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform7.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
                         </div>
                         <div>
                             <span class="caption">May 19, 2020</span>
-                            <h3><a href="#">Roman Greg scorer 4 goals</a></h3>
-                            <p class="mb-0"><a href="#" class="more"><span class="mr-2">+</span>Learn More</a></p>
+                            <h3><a href="#">
+                                Conjunto Niños Primera Equipación Blanca 22/23
+                            </a></h3>
+                            <p class="mb-0"><a href="https://shop.realmadrid.com/products/rmcfyo0022-real-madrid-youth-home-kit-22-23-white" class="more"><span class="mr-2">+</span>Learn More</a></p>
                         </div>
                     </div>
                 </div>
 
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
+                    <div class="custom-media d-block">
+                        <div class="img-wrap mb-3">
+                            <a href="https://shop.realmadrid.com/products/rmcflz0024-real-madrid-womens-home-shirt-22-23-white"><img src="/resources/css2/images/uniform/uniform9.png" onmouseover="this.src='/resources/css2/images/uniform/uniform10.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform9.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
+                        </div>
+                        <div>
+                            <span class="caption">May 19, 2020</span>
+                            <h3><a href="#">
+                                Camiseta Mujer Primera Equipación Blanca 22/23
+                            </a></h3>
+                            <p class="mb-0"><a href="https://shop.realmadrid.com/products/rmcflz0024-real-madrid-womens-home-shirt-22-23-white" class="more"><span class="mr-2">+</span>Learn More</a></p>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
                     <div class="custom-media d-block">
                         <div class="img-wrap mb-3">
@@ -594,7 +764,7 @@
 
             <div class="row justify-content-center">
                 <div class="col-lg-4 text-center">
-                    <a href="#" class="btn btn-primary py-3 px-4">View All Events</a>
+                    <a href="/shop" class="btn btn-primary py-3 px-4">View All</a>
                 </div>
             </div>
         </div>

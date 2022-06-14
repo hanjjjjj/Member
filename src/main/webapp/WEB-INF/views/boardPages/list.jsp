@@ -16,7 +16,6 @@
 </head>
 <body>
 <jsp:include page="../layout/header.jsp" flush="false"></jsp:include>
-
 <h2>글목록 출력 페이지</h2>
 <table class="container">
     <tr class="Table">

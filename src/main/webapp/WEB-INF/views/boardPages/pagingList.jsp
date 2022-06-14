@@ -12,6 +12,14 @@
 <head>
     <title>Title</title>
     <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
+    <style>
+        body{
+            background-image: url("/resources/css2/images/madrid.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
 </head>
 <body>
 <div class="container mt-3">
@@ -22,26 +30,28 @@
         </select>
         <input type="text" name="q" placeholder="검색어입력...">
         <input type="submit" value="검색">
-        <button href="/login-form">로그인</button>
-        <button href="/">홈</button>
-        <c:choose>
-            <c:when test="${sessionScope.loginMemberId != null}">
-                <button href="/board/saveFile">글쓰기</button>
-            </c:when>
-        </c:choose>
-        <c:choose>
-            <c:when test="${sessionScope.loginMemberId != null}">
-                <button href="/logout">로그아웃</button>
-            </c:when>
-        </c:choose>
-        <c:choose>
-            <c:when test="${sessionScope.loginMemberId != null}">
-                <button href="/myPage">마이페이지</button>
-            </c:when>
-        </c:choose>
     </form>
+        <button onclick="location.href='/'">홈</button>
+        <button onclick="location.href='/login-form'">로그인</button>
+
+        <c:choose>
+            <c:when test="${sessionScope.loginMemberId != null}">
+                <button onclick="location.href='/board/saveFile'">글쓰기</button>
+            </c:when>
+        </c:choose>
+        <c:choose>
+            <c:when test="${sessionScope.loginMemberId != null}">
+                <button onclick="location.href='/logout'">로그아웃</button>
+            </c:when>
+        </c:choose>
+        <c:choose>
+            <c:when test="${sessionScope.loginMemberId != null}">
+                <button onclick="location.href='/myPage'">마이페이지</button>
+            </c:when>
+        </c:choose>
+    </>
     <c:if test="${sessionScope.loginMemberId =='admin'}">
-        <button href="/admin">관리자</button>
+        <button onclick="location.href='/admin'">관리자</button>
     </c:if>
 </div>
 <c:choose>
