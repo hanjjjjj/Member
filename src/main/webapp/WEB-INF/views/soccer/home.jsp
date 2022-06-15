@@ -66,16 +66,17 @@
                         <li class="has-children">
                             <a href="/Players">Players</a>
                             <ul class="dropdown arrow-top">
-                                <li><a href="#">Jakub Bates</a></li>
-                                <li><a href="#">Russell Vance</a></li>
-                                <li><a href="#">Carson Hodgson</a></li>
                                 <li class="has-children">
-                                    <a href="#">Sub Menu</a>
+                                    <a href="#">Team legend</a>
                                     <ul class="dropdown">
-                                        <li><a href="#">Joshua Fugueroa</a></li>
-                                        <li><a href="#">Jakub Bates</a></li>
-                                        <li><a href="#">Russell Vance</a></li>
-                                        <li><a href="#">Carson Hodgson</a></li>
+                                        <li><a href="/Puskás">Puskás Ferenc</a></li>
+                                        <li><a href="/destpno">Alfredo Stéfano di Stéfano</a></li>
+                                        <li><a href="/Butragueño">Emilio Butragueño</a></li>
+                                        <li><a href="/Raúl">Raúl González</a></li>
+                                        <li><a href="/Roberto">Roberto Carlos</a></li>
+                                        <li><a href="/Casillas">Iker Casillas</a></li>
+                                        <li><a href="/Ramos">Sergio Ramos</a></li>
+                                        <li><a href="/Ronaldo">Cristiano Ronaldo</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -409,29 +410,29 @@
 
             <div class="row">
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="/resources/css2/images/Gallery/Tr1.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr1.png" alt="Image" class="img-fluid"width="784px" height="784px"></a>
+                    <a href="/resources/css2/images/Gallery/Tr3.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr3.png" alt="Image" class="img-fluid"></a>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="images/img_2.jpg" data-fancybox="gal"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="/resources/css2/images/Gallery/Tr1.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr1.png" alt="Image" class="img-fluid"></a>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="images/img_3.jpg" data-fancybox="gal"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="/resources/css2/images/Gallery/Tr4.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr4.png" alt="Image" class="img-fluid"></a>
                 </div>
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="images/img_4.jpg" data-fancybox="gal"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="/resources/css2/images/Gallery/Tr5.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr5.png" alt="Image" class="img-fluid"></a>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="images/img_5.jpg" data-fancybox="gal"><img src="images/img_5.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="/resources/css2/images/Gallery/Tr6.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr6.png" alt="Image" class="img-fluid"></a>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="images/img_1.jpg" data-fancybox="gal"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="/resources/css2/images/Gallery/Tr7.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr7.png"alt="Image" class="img-fluid"></a>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="images/img_2.jpg" data-fancybox="gal"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="/resources/css2/images/Gallery/Tr8.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr8.png" alt="Image" class="img-fluid"></a>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="images/img_3.jpg" data-fancybox="gal"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="/resources/css2/images/Gallery/Tr9.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr9.png" alt="Image" class="img-fluid"></a>
                 </div>
             </div>
         </div>
@@ -691,14 +692,15 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
                     <div class="custom-media d-block">
                         <div class="img-wrap mb-3">
-                            <a href="https://shop.realmadrid.com/products/rmcfmz0075-real-madrid-mens-home-authentic-shirt-22-23-white"><img src="/resources/css2/images/uniform/unfrom1.png" onmouseover="this.src='/resources/css2/images/uniform/uniform2.png';" onmouseout="this.src='/resources/css2/images/uniform/unfrom1.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
+                            <a href="https://kr.shop.realmadrid.com/products/rmcfmz0075-real-madrid-mens-home-authentic-shirt-22-23-white"><img src="/resources/css2/images/uniform/unfrom1.png" onmouseover="this.src='/resources/css2/images/uniform/uniform2.png';" onmouseout="this.src='/resources/css2/images/uniform/unfrom1.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
                         </div>
                         <div>
                             <span class="caption">May 19, 2020</span>
-                            <h3><a href="#">
-                                Camiseta Authentic Hombre Primera Equipación Blanca 22/23
+                            <h3><a href="https://kr.shop.realmadrid.com/products/rmcfmz0075-real-madrid-mens-home-authentic-shirt-22-23-white">
+                                남성용 홈 정통 셔츠 22/23 화이트
+                                <p>From ₩198,000</p>
                             </a></h3>
-                            <p class="mb-0"><a href="https://shop.realmadrid.com/products/rmcfmz0075-real-madrid-mens-home-authentic-shirt-22-23-white" class="more"><span class="mr-2">+</span>Learn More</a></p>
+                            <p class="mb-0"><a href="" class="more"><span class="mr-2"></span></a></p>
                         </div>
                     </div>
                 </div>
@@ -706,14 +708,15 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
                     <div class="custom-media d-block">
                         <div class="img-wrap mb-3">
-                            <a href="https://shop.realmadrid.com/products/rmcfmz0074-real-madrid-mens-home-shirt-22-23-white"><img src="/resources/css2/images/uniform/uniform3.png" onmouseover="this.src='/resources/css2/images/uniform/uniform4.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform3.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
+                            <a href="https://kr.shop.realmadrid.com/products/rmcfmz0074-real-madrid-mens-home-shirt-22-23-white"><img src="/resources/css2/images/uniform/uniform3.png" onmouseover="this.src='/resources/css2/images/uniform/uniform4.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform3.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
                         </div>
                         <div>
                             <span class="caption">May 19, 2020</span>
-                            <h3><a href="#">
-                                Camiseta Hombre Primera Equipación Blanca 22/23
+                            <h3><a href="https://kr.shop.realmadrid.com/products/rmcfmz0074-real-madrid-mens-home-shirt-22-23-white">
+                                남성용 홈 셔츠 22/23 화이트
+                                <p>From ₩125,000</p>
                             </a></h3>
-                            <p class="mb-0"><a href="https://shop.realmadrid.com/products/rmcfmz0074-real-madrid-mens-home-shirt-22-23-white" class="more"><span class="mr-2">+</span>Learn More</a></p>
+                            <p class="mb-0"><a href="" class="more"><span class="mr-2"></span></a></p>
                         </div>
                     </div>
                 </div>
@@ -721,14 +724,15 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
                     <div class="custom-media d-block">
                         <div class="img-wrap mb-3">
-                            <a href="https://shop.realmadrid.com/products/rmcfyo0022-real-madrid-youth-home-kit-22-23-white"><img src="/resources/css2/images/uniform/uniform7.png" onmouseover="this.src='/resources/css2/images/uniform/uniform8.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform7.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
+                            <a href="https://kr.shop.realmadrid.com/products/rmcflz0025-real-madrid-womens-home-authentic-shirt-22-23-white"><img src="/resources/css2/images/uniform/uniform7.png" onmouseover="this.src='/resources/css2/images/uniform/uniform8.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform7.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
                         </div>
                         <div>
                             <span class="caption">May 19, 2020</span>
-                            <h3><a href="#">
-                                Conjunto Niños Primera Equipación Blanca 22/23
+                            <h3><a href="https://kr.shop.realmadrid.com/products/rmcflz0025-real-madrid-womens-home-authentic-shirt-22-23-white">
+                                우먼스 홈 정통 셔츠 22/23 화이트
+                                <p>From ₩198,000</p>
                             </a></h3>
-                            <p class="mb-0"><a href="https://shop.realmadrid.com/products/rmcfyo0022-real-madrid-youth-home-kit-22-23-white" class="more"><span class="mr-2">+</span>Learn More</a></p>
+                            <p class="mb-0"><a href="" class="more"><span class="mr-2"></span></a></p>
                         </div>
                     </div>
                 </div>
@@ -736,26 +740,75 @@
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
                     <div class="custom-media d-block">
                         <div class="img-wrap mb-3">
-                            <a href="https://shop.realmadrid.com/products/rmcflz0024-real-madrid-womens-home-shirt-22-23-white"><img src="/resources/css2/images/uniform/uniform9.png" onmouseover="this.src='/resources/css2/images/uniform/uniform10.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform9.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
+                            <a href="https://kr.shop.realmadrid.com/products/rmcflz0024-real-madrid-womens-home-shirt-22-23-white"><img src="/resources/css2/images/uniform/uniform9.png" onmouseover="this.src='/resources/css2/images/uniform/uniform10.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform9.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
                         </div>
                         <div>
                             <span class="caption">May 19, 2020</span>
-                            <h3><a href="#">
-                                Camiseta Mujer Primera Equipación Blanca 22/23
+                            <h3><a href="https://kr.shop.realmadrid.com/products/rmcflz0024-real-madrid-womens-home-shirt-22-23-white">
+                                여성용 홈 셔츠 22/23 화이트
+                                <p>From ₩138,000</p>
                             </a></h3>
-                            <p class="mb-0"><a href="https://shop.realmadrid.com/products/rmcflz0024-real-madrid-womens-home-shirt-22-23-white" class="more"><span class="mr-2">+</span>Learn More</a></p>
+                            <p class="mb-0"><a href="" class="more"><span class="mr-2"></span></a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
                     <div class="custom-media d-block">
                         <div class="img-wrap mb-3">
-                            <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                            <a href="https://kr.shop.realmadrid.com/products/rmcfyo0022-real-madrid-youth-home-kit-22-23-white"><img src="/resources/css2/images/uniform/uniform12.png" onmouseover="this.src='/resources/css2/images/uniform/uniform11.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform12.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
                         </div>
                         <div>
                             <span class="caption">May 19, 2020</span>
-                            <h3><a href="#">Roman Greg scorer 4 goals</a></h3>
-                            <p class="mb-0"><a href="#" class="more"><span class="mr-2">+</span>Learn More</a></p>
+                            <h3><a href="#">
+                                청소년 홈 키트 22/23 화이트
+                                <p>From ₩138,000</p>
+                            </a></h3>
+                            <p class="mb-0"><a href="https://kr.shop.realmadrid.com/products/rmcfyo0022-real-madrid-youth-home-kit-22-23-white" class="more"><span class="mr-2"></span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
+                    <div class="custom-media d-block">
+                        <div class="img-wrap mb-3">
+                            <a href="https://kr.shop.realmadrid.com/products/rmcfyz0034-real-madrid-youth-home-shirt-22-23-white"><img src="/resources/css2/images/uniform/uniform13.png" onmouseover="this.src='/resources/css2/images/uniform/uniform14.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform13.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
+                        </div>
+                        <div>
+                            <span class="caption">May 19, 2020</span>
+                            <h3><a href="#">
+                                유스 홈 셔츠 22/23 화이트
+                                <p>From ₩125,000</p>
+                            </a></h3>
+                            <p class="mb-0"><a href="https://kr.shop.realmadrid.com/products/rmcfyz0034-real-madrid-youth-home-shirt-22-23-white" class="more"><span class="mr-2"></span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
+                    <div class="custom-media d-block">
+                        <div class="img-wrap mb-3">
+                            <a href="https://kr.shop.realmadrid.com/products/rmcfyi0046-real-madrid-mini-home-kit-22-23-white"><img src="/resources/css2/images/uniform/uniform15.png" onmouseover="this.src='/resources/css2/images/uniform/uniform16.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform15.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
+                        </div>
+                        <div>
+                            <span class="caption">May 19, 2020</span>
+                            <h3><a href="https://kr.shop.realmadrid.com/products/rmcfyi0046-real-madrid-mini-home-kit-22-23-white">
+                                미니 홈 키트 22/23 화이트
+                                <p>From ₩90,000</p>
+                            </a></h3>
+                            <p class="mb-0"><a href="" class="more"><span class="mr-2"></span></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-5 mb-lg-0">
+                    <div class="custom-media d-block">
+                        <div class="img-wrap mb-3">
+                            <a href="https://kr.shop.realmadrid.com/products/rmcfyi0047-real-madrid-baby-home-kit-22-23-white"><img src="/resources/css2/images/uniform/uniform17.png" onmouseover="this.src='/resources/css2/images/uniform/uniform18.png';" onmouseout="this.src='/resources/css2/images/uniform/uniform17.png';"alt="Image" class="img-fluid" width="624px" height="624px"/></a>
+                        </div>
+                        <div>
+                            <span class="caption">May 19, 2020</span>
+                            <h3><a href="https://kr.shop.realmadrid.com/products/rmcfyi0047-real-madrid-baby-home-kit-22-23-white">
+                                베이비 홈 키트 22/23 화이트
+                                <p>From ₩76,000</p>
+                            </a></h3>
+                            <p class="mb-0"><a href="" class="more"><span class="mr-2"></span></a></p>
                         </div>
                     </div>
                 </div>
@@ -776,8 +829,8 @@
             <div class="row footer-inner">
                 <div class="col-lg-3">
                     <div class="widget mb-4">
-                        <h3>About Us</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium vitae aliquam quia beatae necessitatibus omnis nisi, maxime tempora neque et!</p>
+                        <img src="/resources/css2/images/header_logo.svg"></a>
+
                     </div>
                 </div>
                 <div class="col-lg-2 pl-4">
@@ -786,33 +839,25 @@
                         <ul class="list-unstyled links">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Training</a></li>
-                            <li><a href="#">Player</a></li>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/Players">Player</a></li>
+                            <li><a href="/board/findAll">board</a></li>
+                            <li><a href="/shop">shop</a></li>
+                            <li><a href="/stadium">Bernabéu stadium</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="widget mb-4">
-                        <h3>Upcoming Match</h3>
+                        <h3>Sponsor</h3>
                         <ul class="list-unstyled links">
                             <li>
                                 <a href="#">
-                                    <span class="d-block">May 19, 2020</span>
-                                    SportsTeam vs. LaLegua
+                                    <a href="https://www.emirates.com/es/spanish/?linkCategory=domain&linkItem=emirates.es"><img src="/resources/css2/images/EMIRATES_WEB.jpg"></a>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <span class="d-block">May 19, 2020</span>
-                                    SportsTeam vs. LaLegua
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="d-block">May 19, 2020</span>
-                                    SportsTeam vs. LaLegua
+                                    <a href=https://www.adidas.es/futbol><img src="/resources/css2/images/addidas.jpg"></a>
                                 </a>
                             </li>
                         </ul>
@@ -822,11 +867,10 @@
                     <div class="widget mb-4">
                         <h3>Social</h3>
                         <ul class="list-unstyled social">
-                            <li><a href="#"><span class="mr-2 icon-facebook"></span> Facebook</a></li>
-                            <li><a href="#"><span class="mr-2 icon-twitter"></span> Twitter</a></li>
-                            <li><a href="#"><span class="mr-2 icon-instagram"></span> Instagram</a></li>
-                            <li><a href="#"><span class="mr-2 icon-linkedin"></span> Linkedin</a></li>
-                            <li><a href="#"><span class="mr-2 icon-play"></span> Youtube</a></li>
+                            <li><a href="https://ko-kr.facebook.com/rmkorea"><span class="mr-2 icon-facebook"></span> Facebook</a></li>
+                            <li><a href="https://twitter.com/realmadrid"><span class="mr-2 icon-twitter"></span> Twitter</a></li>
+                            <li><a href="https://www.instagram.com/accounts/login/?next=/realmadrid/"><span class="mr-2 icon-instagram"></span> Instagram</a></li>
+                            <li><a href="https://www.youtube.com/hashtag/%EB%A0%88%EC%95%8C%EB%A7%88%EB%93%9C%EB%A6%AC%EB%93%9C"><span class="mr-2 icon-play"></span> Youtube</a></li>
                         </ul>
                     </div>
                 </div>

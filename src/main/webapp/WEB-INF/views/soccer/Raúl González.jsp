@@ -1,19 +1,19 @@
 <%--
   Created by IntelliJ IDEA.
   User: user
-  Date: 2022-06-14
-  Time: 오후 4:38
+  Date: 2022-06-15
+  Time: 오전 9:11
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<html lang="en">
 <head>
     <title>Sports Team &mdash; Colorlib Website Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Oswald:400,700">
-    <link rel="stylesheet" href="/resources/css2/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="/resources/fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="/resources/css2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/resources/css2/css/jquery.fancybox.min.css">
@@ -21,8 +21,7 @@
     <link rel="stylesheet" href="/resources/css2/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/resources/css2/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="/resources/css2/css/animate.css">
-    <link rel="stylesheet" href="/resources/css2/css/fonts/flaticon/font/flaticon.css">
-
+    <link rel="stylesheet" href="/resources/fonts/flaticon/font/flaticon.css">
 
 
     <link rel="stylesheet" href="/resources/css2/css/aos.css">
@@ -30,10 +29,7 @@
     <link rel="stylesheet" href="/resources/css2/css/style.css">
 
 </head>
-<body>
-
-
-
+<div>
 <div class="site-wrap">
 
 
@@ -51,7 +47,7 @@
         <div class="row no-gutters site-navbar align-items-center py-3">
 
             <div class="col-6 col-lg-2 site-logo">
-                <a href="/home"><img  src="/resources/css2/images/header_logo.svg"></a>
+                <a href="/home"><img src="/resources/css2/images/header_logo.svg"></a>
             </div>
             <div class="col-6 col-lg-10 text-right menu">
                 <nav class="site-navigation text-right text-md-right">
@@ -60,12 +56,12 @@
                         <li>
                             <a href="/home">Home</a>
                         </li>
-                        <li class="active"><a href="/Gallery">Gallery</a></li>
-                        <li class="has-children">
+                        <li><a href="/Gallery">Gallery</a></li>
+                        <li class="has-children active">
                             <a href="/Players">Players</a>
                             <ul class="dropdown arrow-top">
                                 <li class="has-children">
-                                    <a href="#">Team legend</a>
+                                    <a href="#">Team Legend </a>
                                     <ul class="dropdown">
                                         <li><a href="/Puskás">Puskás Ferenc</a></li>
                                         <li><a href="/destpno">Alfredo Stéfano di Stéfano</a></li>
@@ -98,53 +94,41 @@
             <div class="col-lg-12">
                 <div class="hero-wrap text-center" style="background-image: url('/resources/css2/images/madrid.png');" data-stellar-background-ratio="0.5">
                     <div class="hero-contents">
-                        <h2>Gallery</h2>
-                        <p><a href="index.html">Home</a> <span class="mx-2">/</span> <strong>Gallery</strong></p>
+                        <h2>Legend Players</h2>
+                        <p><a href="/home">Home</a> <span class="mx-2">/</span> <strong>Players</strong></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="container site-section pb-0">
 
-    <div class="site-section">
-        <div class="container">
-            <div class="row align-items-center mb-2">
-                <div class="col-6">
-                    <h2 class="section-title">Team Gallery</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="/resources/css2/images/Gallery/Tr3.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr3.png" alt="Image" class="img-fluid"></a>
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="/resources/css2/images/Gallery/Tr1.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr1.png" alt="Image" class="img-fluid"></a>
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="/resources/css2/images/Gallery/Tr4.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr4.png" alt="Image" class="img-fluid"></a>
-                </div>
-
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="/resources/css2/images/Gallery/Tr5.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr5.png" alt="Image" class="img-fluid"></a>
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="/resources/css2/images/Gallery/Tr6.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr6.png" alt="Image" class="img-fluid"></a>
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="/resources/css2/images/Gallery/Tr7.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr7.png"alt="Image" class="img-fluid"></a>
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="/resources/css2/images/Gallery/Tr8.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr8.png" alt="Image" class="img-fluid"></a>
-                </div>
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-4">
-                    <a href="/resources/css2/images/Gallery/Tr9.png" data-fancybox="gal"><img src="/resources/css2/images/Gallery/Tr9.png" alt="Image" class="img-fluid"></a>
-                </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-6">
+                <h2 class="section-title">Our Legend Player</h2>
             </div>
         </div>
-    </div>
+            <div class="item player">
+                <div style="text-align: center;">
 
+                <a href="#"><img src="/resources/css2/images/raul1.png" alt="Image" class="img-fluid"width="624px" height="624px"></a>
+                <div class="p-4">
+                    <h3>Raúl González</h3>
+                    <p>#7 / Forward</p>
+                    <p>
+                        1994 Real Madrid C ~ 2010 Real Madrid
+                    </p>
+                    <p>Laliga 6 winner ,Champions League 3 winner, Supercopa 4 winner</p>
+                    <p>LaLiga top scorer 1998~2001 Champions League top scorer 1990~2001</p>
+                </div>
+        </div>
+    </div>
+        </div>
+</div>
+</div>
+</div>
+</div>
     <div class="footer">
         <div class="container">
             <div class="row footer-inner">
@@ -227,7 +211,7 @@
 <script src="/resources/css2/js/bootstrap.min.js"></script>
 <script src="/resources/css2/js/owl.carousel.min.js"></script>
 <script src="/resources/css2/js/jquery.stellar.min.js"></script>
-<script src="/resources/css2/js/jquery.fancybox.min.js"></script>
+<script src="/resources/css2/js/jquery.magnific-popup.min.js"></script>
 <script src="/resources/css2/js/aos.js"></script>
 
 <script src="/resources/css2/js/main.js"></script>

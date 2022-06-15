@@ -52,7 +52,7 @@
         <div class="row no-gutters site-navbar align-items-center py-3">
 
             <div class="col-6 col-lg-2 site-logo">
-                <a href="/home">Realmadrid</a>
+                <a href="/home"><img src="/resources/css2/images/header_logo.svg"></a>
             </div>
             <div class="col-6 col-lg-10 text-right menu">
                 <nav class="site-navigation text-right text-md-right">
@@ -65,23 +65,25 @@
                         <li class="has-children active">
                             <a href="/Players">Players</a>
                             <ul class="dropdown arrow-top">
-                                <li><a href="#">Jakub Bates</a></li>
-                                <li><a href="#">Russell Vance</a></li>
-                                <li><a href="#">Carson Hodgson</a></li>
                                 <li class="has-children">
-                                    <a href="#">Sub Menu</a>
+                                    <a href="#">Team legend</a>
                                     <ul class="dropdown">
-                                        <li><a href="#">Joshua Fugueroa</a></li>
-                                        <li><a href="#">Jakub Bates</a></li>
-                                        <li><a href="#">Russell Vance</a></li>
-                                        <li><a href="#">Carson Hodgson</a></li>
+                                        <li><a href="/Puskás">Puskás Ferenc</a></li>
+                                        <li><a href="/destpno">Alfredo Stéfano di Stéfano</a></li>
+                                        <li><a href="/Butragueño">Emilio Butragueño</a></li>
+                                        <li><a href="/Raúl">Raúl González</a></li>
+                                        <li><a href="/Roberto">Roberto Carlos</a></li>
+                                        <li><a href="/Casillas">Iker Casillas</a></li>
+                                        <li><a href="/Ramos">Sergio Ramos</a></li>
+                                        <li><a href="/Ronaldo">Cristiano Ronaldo</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="/shop">shop</a></li>
+                        <li><a href="/board/findAll">board</a></li>
+                        <li><a href="/logout">logout</a></li>
+                        <li><a href="/stadium">Bernabéu stadium</a></li>
                     </ul>
 
                     <a href="#" class="site-menu-toggle js-menu-toggle text-black d-inline-block d-lg-none"><span class="icon-menu h3"></span></a>

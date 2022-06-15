@@ -32,8 +32,7 @@
         <input type="submit" value="검색">
     </form>
         <button onclick="location.href='/'">홈</button>
-        <button onclick="location.href='/login-form'">로그인</button>
-
+    <button onclick="location.href='/login-form'">로그인</button>
         <c:choose>
             <c:when test="${sessionScope.loginMemberId != null}">
                 <button onclick="location.href='/board/saveFile'">글쓰기</button>
